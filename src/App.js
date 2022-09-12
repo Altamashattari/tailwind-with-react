@@ -1,5 +1,6 @@
 import './App.css';
 import EmailSubscribe from './components/email-subscribe';
+import ImageGallery from './components/image-gallery';
 import PricingGrid from './components/pricing-grid';
 import ProductModal from './components/product-modal';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="w-screen h-screen">
       {/* <EmailSubscribe /> */}
       {/* <PricingGrid /> */}
-      <ProductModal />
+      {/* <ProductModal /> */}
+      <ImageGallery />
     </div>
   );
 }
