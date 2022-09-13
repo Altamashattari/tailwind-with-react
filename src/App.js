@@ -1,6 +1,7 @@
 import './App.css';
 import EmailSubscribe from './components/email-subscribe';
 import ImageGallery from './components/image-gallery';
+import LoginModal from './components/login-modal';
 import PricingGrid from './components/pricing-grid';
 import ProductModal from './components/product-modal';
 
@@ -10,7 +11,8 @@ function App() {
       {/* <EmailSubscribe /> */}
       {/* <PricingGrid /> */}
       {/* <ProductModal /> */}
-      <ImageGallery />
+      {/* <ImageGallery /> */}
+      <LoginModal />
     </div>
   );
 }
